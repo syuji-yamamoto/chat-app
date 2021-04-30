@@ -17,7 +17,7 @@
 
 | Column | Type   | Options     |
 | ------ | ------ | ----------- |
-| name  | string | null: false |
+| name   | string | null: false |
 
 ### Association
 - has_many :room_users
@@ -40,9 +40,9 @@
 
 | Column  | Type    | Options                        |
 | ------- |  ------- | ------------------------------ |
-| content    | string  |
-| user_id | integer | null: false, foreign_key: true |
-| room_id | integer | null: false, foreign_key: true |
+| content | string   |
+| user_id | integer  | null: false, foreign_key: true |
+| room_id | integer  | null: false, foreign_key: true |
 
 ### Association
 
